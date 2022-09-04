@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Jomhuria&family=Open+Sans:ital,wght@1,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Jomhuria', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header {
+    background-color: #6b6d70;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 80px;
+}
+.logo {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #0c2061;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.6em;
+    text-shadow: 0.3px 0.3px 10px #ffffff;
+}
+.navigation1 a {
+    color: #0c2061;
+    font-size: 1.1em;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding-left: 30px;
+    font-weight: 600;
+    text-shadow: 0.3px 0.3px 10px #ffffff;
+}
+
+.navigation1 a:hover {
+    color: #672cf1;
+}
+section {
+    padding: 100px 150px;
+}
+.main-content {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(images/332314.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main-content div h2{
+    font-size: 0.9em;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #eee;
+}
+.name {
+    font-size: 2em;
+    font-weight: 800;
+    color: #a9b6e2;
+    display: inline-block;
+    margin-top: 10px;
+}
+.main-content h3 {
+    font-size: 1.1em;
+    font-weight: 700;
+    color: #eee;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.main-buttom {
+    text-decoration: none;
+    background-color: rgb(189, 118, 12) ;
+    display: inline-block;
+    margin-top: 10px ;
+    text-transform: capitalize;
+    color: #f0f0f0;
+    padding: 12px 20px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    transition: 0.5s ease;
+
+}
+.main-buttom:hover {
+    background-color:rgb(129, 81, 10) ;
+    transform: scale(1.2);
+    
+}
+.socail-icons a {
+    text-decoration: none;
+    font-size: 2em;
+    color: #a9b6e2;
+    padding-right: 10px;
+    margin-top: 10px;
+    transition: 0.5s ease;
+}
+.main-cards {
+    margin-bottom: 200px;
+    box-sizing: border-box;
+    min-height: 60vh;
+
+}
+.services1 {
+    display: flex;
+    justify-content: center;
+    color: #2856eb;
+    text-transform: capitalize;
+    font-size: 1.5em;
+    font-weight: 800;
+    text-shadow: 0.4px 1px 1px;
+    margin-top:50px;
+    margin-bottom: 20px;
+    
+}
+.flex-row {
+    display: flex;
+    justify-content: center;
+    float: left;
+    flex-wrap: wrap;
+}
+.first-cards {
+    margin-left: 30px;
+    max-width: 350px;
+    min-height: 200px;
+    border-radius: 5px;
+    box-shadow: 0 0px 20px rgb(85, 88, 125);
+    margin-top: 40px;
+    transition: 0.6s ease;
+}
+.first-cards:hover {
+    transform: scale(1.2);
+}
+.icon-1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(30, 21, 21);
+    margin: 30px 0;
+    font-size: 4em;
+    font-weight: 700;
+}
+.info {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.info h3 {
+    color: #5d3e10;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+.info {
+    color: #211706;
+    max-width: 250px;
+    text-transform: capitalize;
+    font-size: 0.8em;
+    font-weight: 500;   
+}
+.info p {
+    padding: 0 10px;
+    text-transform: capitalize;
+}
+.project {
+    background-color: #31343a;
+    width: 100%;
+    min-height: 130vh;
+}
+.project .services1 {
+    color: #f0f0f0;
+    margin-bottom: 50px;
+}
+.new-box {
+    max-width:354px;
+    border: 2px solid #eee;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    transition: 0.6s ease;
+    float: left;
+    margin:0 0 50px 50px;
+}
+.new-box:hover {
+    transform: scale(1.2);
+}
+.good {
+    width: 350px;
+    box-sizing: border-box;
+}
+.info1 {
+    text-align: center;
+    margin: 20px 10px;
+}
+.about1 {
+    text-transform: capitalize;
+    color: #5d3e10 ;
+    font-size: 1.1em;
+    font-weight: 700;
+
+}
+.info1 p {
+    font-size: 0.8em;
+    font-weight: 500;
+}
+.about-img{
+    text-decoration: none;
+    color: #5d3e10;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 0.8em;
+    float: right;
+}
+.about-img1 {
+    padding: 0 10px 5px 0;
+}
+.about-img:hover {
+    color: #eb9d29 ;
+    font-weight: 600;
+}
+footer {
+    width: 100%;
+    background-color: #6b6d70 ;
+    height: 40px ;
+}
+footer p {
+    font-size: 0.9em;
+    font-weight: 600;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    margin-right: 1010px;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+.socail-icons1 a {
+    font-size: 0.92em;
+    float: left;
+    overflow: hidden;
+    color: #a9b6e2;
+    padding-right: 15px;
+    margin-top: 10px;
+
+}
+    
+
+
+
+
+
+
+
+
+
